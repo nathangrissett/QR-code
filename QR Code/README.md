@@ -79,5 +79,5 @@ div {
 
 ## Author
 
-- Website - [Nathan Grissett](https://www.github.com/nathangrissett/nathangrissett.github.io)
+- Website - [Nathan Grissett](https://github.com/nathangrissett)
 - Frontend Mentor - [@nathangrissett](https://www.frontendmentor.io/profile/nathangrissett)
