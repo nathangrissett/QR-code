@@ -18,12 +18,12 @@ This is a webpage with a QR code for Frontend Mentor's website and some text abo
 
 ### Screenshot
 
-[](finalproduct/screenshot.png)
+[screenshot](finalproduct/screenshot.png)
 
 ### Links
 
-- Solution URLs: [](QRcode.html)
-[](assets/stylesheets/main.css)
+- Solution URLs: [html file](QRcode.html)
+[css file](assets/stylesheets/main.css)
 
 ## My process
 
