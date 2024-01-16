@@ -80,4 +80,4 @@ div {
 ## Author
 
 - Website - [Nathan Grissett](https://www.github.com/nathangrissett/nathangrissett.github.io)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/nathangrissett)
+- Frontend Mentor - [@nathangrissett](https://www.frontendmentor.io/profile/nathangrissett)
