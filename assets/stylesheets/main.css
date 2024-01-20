@@ -51,11 +51,11 @@ table {
 Sizing
 */
 
-header {
+img {
     width: 300px;
 }
 
-h1, h4 {
+h1, h2 {
     width: 264px;
 }
 
@@ -64,33 +64,26 @@ h1 {
     line-height: 27px;
 }
 
-h4 {
+.title {
+    padding-left: 16px;
+}
+
+h2 {
     padding-bottom: 15px;
     line-height: 18px;
 }
 
-footer {
-    padding-left: 17px;
-    width: 283px;
-}
-
-/*
-Position
-*/
-
-html {
-    display: inline-block;
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
+.sub {
     text-align: center;
+    padding-left: 7px;
+    width: 283px;
 }
 
 /*
 Fonts
 */
 
-h1, h4 {
+h1, h2 {
     font-family: "Outfit";
 }
 
@@ -99,17 +92,16 @@ h1 {
     font-size: 22px;
 }
 
-h4 {
+h2 {
     font-weight: 400;
     font-size: 15px;
 }
 
 /*
-Image
+Additional img properties
 */
 
 img {
-    width: 300px;
     margin: 0;
     border: 0;
     padding; 0;
@@ -124,19 +116,11 @@ html {
     background-color: hsl(212, 45%, 89%);
 }
 
-header {
-    background-color: hsl(0, 0%, 100%);
-}
-
-footer {
-    background-color: hsl(0, 0%, 100%);
-}
-
 h1 {
     color: hsl(218, 44%, 22%);
 }
 
-h4 {
+h2 {
     color: hsl(220, 15%, 55%);
 }
 
@@ -148,14 +132,24 @@ div {
     width: 300px;
     padding: 15px;
     padding-bottom: 30px;
+  }
+
+/*
+**V2** using flexbox to center the card
+*/
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
     border: 1px solid #fff;
     border-radius: 20px;
-    background-color: #fff;
-/*
-Below is how to center the div vertically
-*/
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
+    text-align: center;
+ }
+
